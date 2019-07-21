@@ -4,4 +4,4 @@ ADD . /app
 WORKDIR /app
 RUN bundle install
 
-RUN apt-get update; apt-get install -y apache2 libapache2-mod-passenger 
+RUN apt-get update; apt-get install -y vim apache2 libapache2-mod-passenger 
