@@ -1,0 +1,3 @@
+FROM ruby
+
+ADD . /app
